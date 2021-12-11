@@ -2,6 +2,8 @@ Overview:
 
 Parse through your Google Calendar to calculate time spent on different activites based on a set of pre-defined event keywords.
 
+Need to add your own credentials.json by creating an application on Google cloud. 
+
 Setup:
 
 python3 -m pip install --user --upgrade pip
