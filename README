@@ -1,0 +1,12 @@
+Overview:
+
+Parse through your Google Calendar to calculate time spent on different activites based on a set of pre-defined event keywords.
+
+Setup:
+
+python3 -m pip install --user --upgrade pip
+python3 -m pip install --user virtualenv
+python3 -m venv env
+source env/bin/activate
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
